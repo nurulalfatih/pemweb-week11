@@ -10,15 +10,24 @@ export default function Home() {
     }}>
       <h1 style={{
         margin: 0,
-        paddingBottom: "16px"
-      }}>Hi, Guys!</h1>
+        paddingBottom: "12px",
+      }}>
+        Hi, Guys! Aku Fatih
+      </h1>
       <button style={{
         margin: 0,
-        width: "170px",
+        width: "200px",
         height: "40px",
-        marginBottom: "16px"
-      }}>Pencet</button>
-      <button>Pencet Lagi</button>
+      }}>
+        Pencet
+      </button>
+      <button style={{
+        width: "200px",
+        height: "40px",
+      }}>
+        Pencet Lagi
+      </button>
+    
     </section>
   );
 }
